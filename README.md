@@ -1,58 +1,71 @@
 # 🛒 E-Commerce Application
 
-## 📌 Overview
 A modern **React-based e-commerce application** built using the **Fake Store API**.  
-This project demonstrates **product listing, cart management, and a responsive UI** with a clean design.  
+This project demonstrates **signup/login page**, **product listing**, **dynamic product details**, **cart management flow**, with a **clean UI**.
 
 ## 🌐 Live Demo
-[Click here to view the project](https://fakestoreapplication.netlify.app/)
+[Fake Store Application](https://fakestoreapplication.netlify.app/)
+
+---
 
 ## 🚀 Features
+- 🔐 Signup / login page
 - 📦 Fetch and display products from **Fake Store API**  
-- 🔍 Product details page with description & pricing using **dynamic routing**  
+- 🔍 Product details page with description & pricing using dynamic routing 
 - 🛒 Add to Cart / Remove from Cart functionality  
-- ⚡ Built with **React + Hooks** for state management  
+- ⚡ Built with **React + Hooks**
+
+---
 
 ## 🛠️ Tech Stack
 - **Frontend:** React, JavaScript, CSS  
 - **API:** Fake Store API  
 - **Deployment:** Netlify  
 
+---
+
 ## 📂 Project Setup
 
-1. **Clone the repo**
-   ```bash
-   git clone https://github.com/your-username/fakestoreapplication.git
-   cd fakestoreapplication
+Clone the repository and install dependencies:
 
-   🏠 Home Page
+```bash
+# Clone repo
+git clone https://github.com/your-username/fakestoreapplication.git
+
+# Go inside project
+cd fakestoreapplication
+
+# Install dependencies
+npm install
+
+# Run development server
+npm start
+
+## 🏠 Home Page
 
 Display of all products with category filters.
 
 ## 🛍️ Product Details
 
-Detailed view with product description, rating, and price.
+Detailed view with product description, image, rating, and price.
 
 ## 🛒 Cart Page
 
-Fully functional cart with add/remove features.
+Fully functional cart with add/remove.
 
 ## 📦 Deployment
 
 The app is deployed on Netlify.
 
+For your own deployment: npm run build
+
 ## 🤝 Contributing
+- Contributions are welcome!
+- Fork the repo
+- Create a new branch (feature-xyz)
+- Commit your changes
+- Submit a Pull Request
 
-Contributions are welcome!
-
-1. Fork the repo
-
-2. Create a new branch (feature-xyz)
-
-3. Commit your changes
-
-4. Submit a PR
-
-📜 License
+## 📜 License
 
 This project is licensed under the MIT License.
